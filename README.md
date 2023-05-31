@@ -35,9 +35,12 @@
       - webapp - it is created on every make/build, should always go to gitignore
       - bundle.properties
       - extensions.xml
-   - web-src - code for creating React/Vite app goes in here, difference from the standard setup  
+   - web-src - code for creating React/Vite app goes in here, difference from the standard setup in package.json set build dir to webapp
      `
       "build": "vite build --outDir ../bundle/webapp --base [bundle path set in extensions.xml] "
       `
+     - constants
+     - css
+     - js
    - [Name of the bundle].bndlspec
    - Makefile
